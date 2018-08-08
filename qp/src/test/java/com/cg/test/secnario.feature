@@ -1,18 +1,18 @@
 Feature: Conference Registration 
 
 #Scenario: Registration for user 
-#	Given first name is "bhuvija" 
-#	Then lastname is "priya" 
-#	Then email is "bhuvijayerra@gmail.com" 
-#	Then contactno is "9963038344" 
+#	Given first name is "xyz" 
+#	Then lastname is "abc" 
+#	Then email is "abcxyz@gmail.com" 
+#	Then contactno is "1234567890" 
 #	Then number of people attending is "2" 
-#	Then address is "HailandHomes" 
-#	Then areaname is "bachupally" 
+#	Then address is "zxy" 
+#	Then areaname is "kdd" 
 #	Then city name is "Hyderabad" 
 #	Then state name is "Telangana" 
 #	Then cost is "memberstatus" 
 #	Then nextpage 
-#	Then cardholdername is "YERRA BHUVIJA PRIYA" 
+#	Then cardholdername is "xyzabc" 
 #	Then debitcardnumber is "12134567891213" 
 #	Then cvv is "234" 
 #	Then cardexpiremonth is "12" 
@@ -20,75 +20,24 @@ Feature: Conference Registration
 #	Then makepayment 
 #	Then close 
 #	
-#	
-#Scenario: Registration for user on wrong firstname 
-#	Given first name is "" 
-#	Then lastname is "priya" 
-#	Then email is "bhuvijayerra@gmail.com" 
-#	Then contactno is "9963038344" 
-#	Then number of people attending is "2" 
-#	Then address is "HailandHomes" 
-#	Then areaname is "bachupally" 
-#	Then city name is "Hyderabad" 
-#	Then state name is "Telangana" 
-#	Then cost is "memberstatus" 
-#	Then nextpage1 
-#	
-#Scenario: Registration for user on wrong lastname 
-#	Given first name is "bhuvija" 
-#	Then lastname is "" 
-#	Then email is "bhuvijayerra@gmail.com" 
-#	Then contactno is "9963038344" 
-#	Then number of people attending is "2" 
-#	Then address is "HailandHomes" 
-#	Then areaname is "bachupally" 
-#	Then city name is "Hyderabad" 
-#	Then state name is "Telangana" 
-#	Then cost is "memberstatus" 
-#	Then nextpage1 
-#Scenario: Registration for user on wrong lastname 
-#	Given first name is "bhuvija" 
-#	Then lastname is "priya" 
-#	Then email is "bhuvijayerragmail.com" 
-#	Then contactno is "9963038344" 
-#	Then number of people attending is "3" 
-#	Then address is "HailandHomes" 
-#	Then areaname is "bachupally" 
-#	Then city name is "Hyderabad" 
-#	Then state name is "Telangana" 
-#	Then cost is "memberstatus" 
-#	Then nextpage1 
-
-#Scenario: Registration for user on wrong lastname 
-#	Given first name is "bhuvija" 
-#	Then lastname is "priya" 
-#	Then email is "bhuvijayerra@gmail.com" 
-#	Then contactno is "996303834" 
-#	Then number of people attending is "3" 
-#	Then address is "HailandHomes" 
-#	Then areaname is "bachupally" 
-#	Then city name is "Hyderabad" 
-#	Then state name is "Telangana" 
-#	Then cost is "memberstatus" 
-#	Then nextpage1 
 
 Scenario: Wrong case
 	Then next
-	Then first name is "bhuvija"
+	Then first name is "xyz"
 	Then next
-	Then lastname is "priya"
+	Then lastname is "abc"
 	Then next
-	Then email is "bhuvijayerra@gmail.com"
+	Then email is "abcxyz@gmail.com"
 	Then next
-	Then contactno is "9963038344"
+	Then contactno is "1234567890"
 	Then next
 	Then number of people attending is "7"
 	Then next
 	Then number of people attending is "2"
 	Then next
-	Then address is "HailandHomes" 
+	Then address is "zxy" 
 	Then next
-	Then areaname is "bachupally" 
+	Then areaname is "kdd" 
 	Then next
 	Then city name is "Hyderabad" 
 	Then next
@@ -96,7 +45,7 @@ Scenario: Wrong case
 	Then next
 	Then cost is "memberstatus"
 	Then nextpage
-	Then cardholdername is "YERRA BHUVIJA PRIYA"
+	Then cardholdername is "xyzabc"
 	Then nextvalue
 	Then debitcardnumber is "12134567891213"
 	Then nextvalue
